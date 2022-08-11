@@ -1,0 +1,115 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+
+  /*CAN IT BE RECYCLED*/
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #f0f1ef; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+p{
+  text-align:center;
+
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+ul {
+list-style-type: none;
+  background-color: #2d260c;
+  overflow: hidden;
+  padding: 3em;
+  text-align:center;
+}
+li {
+display:inline;
+  
+  /*makes it vertical*/
+}
+
+li a {
+  text-decoration: none;
+  color: #eff1f0;
+  font-size: 220%;
+  padding: 1em;
+  font-family:system-ui;
+  /*font-family:""*/
+}
+
+li a:hover {
+background-color: #59523b;
+text-shadow: 2px 2px 4px #050505;
+border-radius:4%;
+  
+}
+
+/* STYLE GENERATE A FACT */
+#scriptBtn {
+  background: #0D38D3;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #ffffff;
+  font-size: 1em;
+}
+
+#factBtn{
+  font-size:1em;
+  background-color:#2d260c;
+  color:white;
+  padding: 15px;
+  margin-top:.5em;
+  margin-bottom:.5em;
+}
+
+.genFact {
+  background: white;
+  border-radius: 10px;
+  border-style:none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right:10%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align:center;
+  line height: 1.2em;
+  color: #2d260c;
+}
+
+#fact {
+  border-style:none;
+
+  padding:15px;
+
+  margin-top:30px;
+  margin-left:15%;
+  margin-right:15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height:1.2em;
+  color:#59523b;
+}
+/* ADD MORE! */
