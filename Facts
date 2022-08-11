@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Michelle Bartolotta's Social Good Project</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style3.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+
+  <nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Events.html">EVENTS</a></li>
+        <li><a href="Facts.html">FACTS</a></li>
+      </ul>
+  </nav> 
+    <div class="genFact">
+
+    <p>Click to learn something new.</p>
+    <button id="factBtn">FACT BUTTON</button>
+    <p>Then go share it.</p>
+    </div>
+      
+    <p id="fact">Ants weigh more than humans.</p>
+    <p class="attribution">Facts from <a href="https://kpwb.org/environmental-fun-facts-2/">KPWB</a></p>
+
+    
+  </body>
+</html>
