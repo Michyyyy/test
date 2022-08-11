@@ -1,0 +1,151 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+/*fade transition code*/
+.fade-in-image { animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+ background-color: #eff1f0; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #eff1f0;
+  text-align: center;
+  padding-bottom:.5em;
+  font-size:500%;
+}
+
+p{
+  color:black;
+  margin-left:0%;
+  margin-right:0%;
+  padding-left:0%;
+  padding-right:0%;
+  margin-up:0%;
+  margin-bottom:0%;
+  padding-up:0%;
+  padding-bottom:0%;
+  text-align:center
+
+}
+
+p1{
+  color:#eff1f0;
+  text-align:center;
+  font-size:26px;
+  
+}
+
+p2{
+font-size: 40px;
+color:#4f4516;
+font-family:system-ui;
+text-align:left;
+float:left;
+padding-left:10%;
+padding-bottom:1em;
+padding-top:.5em;
+padding-right:1em;
+}
+
+
+p3{
+  color:#a79b8d;
+  float:left;
+  font-size:20px;
+  padding-left:15%;
+  padding-right:0em;
+  font-family:system-ui;
+  line-height:1.5em;
+}
+
+p4{
+
+  color:#4f4516;
+font-family:system-ui;
+
+}
+
+
+/* STYLE IMAGES */
+img{
+  padding-top:3em;
+  width: 80%;
+  padding-bottom:1em;
+  
+}
+
+.background {
+  width: 100%;
+  background-image: url("assets/trees.jpg");
+  background-color: #c4cfc4;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/*seperation divs*/
+
+#div1 {
+  background-color:#eff1f0;
+  width:50%;
+  float:left;
+  height:2500px;
+  padding-up:4em;
+}
+
+#div2 {
+  background-color:#eff1f0;
+  width:50%;
+  float:right;
+  height:2500px;
+  padding-up:4em;
+}
+/* STYLE NAV BAR */
+
+ul {
+list-style-type: none;
+  background-color: #2d260c;
+  overflow: hidden;
+  padding: 3em;
+  text-align:center;
+}
+li {
+display:inline;
+  
+  /*makes it vertical*/
+}
+
+li a {
+  text-decoration: none;
+  color: #eff1f0;
+  font-size: 220%;
+  padding: 1em;
+  font-family:system-ui;
+  /*font-family:""*/
+}
+
+li a:hover {
+background-color: #59523b;
+text-shadow: 2px 2px 4px #050505;
+border-radius:4%;
+  
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
